@@ -4,8 +4,8 @@
     "slug": "bed-space-finder",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "platforms": ["ios", "android", "web"],
     "splash": {
       "backgroundColor": "#1E3A5F"
     },
@@ -21,8 +21,8 @@
       "package": "com.yourname.bedspacefinder"
     },
     "web": {
-      "favicon": "./assets/favicon.png",
-      "bundler": "webpack"
+      "bundler": "metro",
+      "output": "static"
     }
   }
 }
