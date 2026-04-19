@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Bed Space Finder",
+    "slug": "bed-space-finder",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#1E3A5F"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourname.bedspacefinder"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#1E3A5F"
+      },
+      "package": "com.yourname.bedspacefinder"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "webpack"
+    }
+  }
+}
